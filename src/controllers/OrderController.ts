@@ -104,6 +104,8 @@ const createCheckoutSession = async (req: Request, res: Response) => {
     }
 
     await newOrder.save();
+
+    const sortedOrders = await Order.find({}).sort({ createdAt: -1 }).exec();
     res.json({ url: session.url });
   } catch (error: any) {
     console.log(error);
