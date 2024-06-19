@@ -112,6 +112,8 @@ Express.js Documentation
 
 MongoDB Documentation
 
+# Hosted URL: 
+https://mern-food-ordering-app-frontend-nj2c.onrender.com/
 # Testing
 Use the following card number for Stripe payment testing:
 
